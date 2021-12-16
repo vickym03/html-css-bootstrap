@@ -1,0 +1,63 @@
+/* group select */
+body,head,body{
+    margin: 20px;
+}
+
+/* Element selector */
+h1{
+    color: blueviolet;
+}
+
+/* class selectors */
+.container{ 
+    color: brown;
+}
+
+/* id selectors */
+
+#id{
+    color: red;
+}
+
+/* parent and child */
+div >  h2{
+    color: darkblue;
+}
+
+/* universal selector */
+*{
+    background-color: rgba(187, 175, 175, 0.425);
+}
+
+/* Pseudo selectors */
+
+/* hover (high light) */
+a:hover{
+    color: red;
+    box-shadow: 0px 0px 30px red ;
+}
+ /* on active */
+a:active{
+    color: yellow;
+    
+}
+
+/* focus and visited wont work at a time */
+ /* focus  */
+ a:focus{
+     color: green;
+ }
+
+ /* a:visited{
+     color: brown;
+ } */
+ #am:focus{
+     color: brown;
+ }
+
+ input:focus{
+     color: chartreuse;
+ }
+ 
+
+ 

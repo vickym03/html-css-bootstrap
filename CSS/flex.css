@@ -1,0 +1,31 @@
+.main{
+    margin-left: 4px; 
+    /* padding-left: 300px; */
+    width: 300px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    /* margin-bottom: 12px; */
+    /* padding-bottom: 20px; */
+    /* transform: rotate(45deg); */
+
+}
+
+#left{
+    margin-left: 4px; 
+    /* padding-left: 300px; */
+    width: 300px;
+    height: 150px;
+    display: flex;
+    text-align: center;
+   flex-direction: left;
+   /* justify-content: space-between; */
+   justify-content: space-evenly;
+ flex-direction: row-reverse;
+ 
+}
+
+.de{
+    display: flex;
+    justify-content: space-evenly;
+}
